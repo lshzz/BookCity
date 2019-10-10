@@ -11,5 +11,7 @@
         <item name="android:statusBarColor">@color/background</item>
         <!--沉浸式状态栏 需要API level 23-->
         <item name="android:windowLightStatusBar">true</item>
+        <!--&lt;!&ndash;&lt;!&ndash;系统顶部状态栏悬浮到应用之上，不占有固定位置&ndash;&gt;&ndash;&gt;-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
     </style>
 </resources>

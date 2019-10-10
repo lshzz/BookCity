@@ -16,6 +16,7 @@ import com.asterism.fresk.ui.adapter.PagerAdapter;
 import com.asterism.fresk.ui.fragment.BookFragment;
 import com.asterism.fresk.ui.fragment.MoreFragment;
 import com.asterism.fresk.ui.fragment.NoteFragment;
+import com.asterism.fresk.ui.fragment.SelectedFragment;
 import com.asterism.fresk.ui.widget.ScrollViewPager;
 
 import java.util.ArrayList;
@@ -60,7 +61,7 @@ public class MainActivity extends BaseActivity<IMainContract.Presenter>
         // 添加书桌页面碎片
         fragmentList.add(new BookFragment());
         // 添加更多页面碎片
-        fragmentList.add(new MoreFragment());
+        fragmentList.add(new SelectedFragment());
 
         // 设置滚动视图适配器
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), fragmentList);
